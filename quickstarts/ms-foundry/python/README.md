@@ -4,6 +4,27 @@
 
 [Microsoft Foundry Quickstart](https://learn.microsoft.com/en-us/azure/ai-foundry/quickstarts/get-started-code?view=foundry&tabs=python)
 
+## Setup
+
+### Environment Configuration
+
+This project uses two environment files:
+
+- `.env.local` - Template file (checked into git) with placeholder values
+- `.env` - Actual file (NOT checked into git) with your sensitive values
+
+**First-time setup:**
+
+1. Copy `.env.local` to `.env`
+2. Edit `.env` and set `AZURE_RESOURCE_NAME` to your Azure resource name
+3. The `.env` file contains your actual values and is excluded from git via `.gitignore`
+
+The `.env` file should contain:
+
+```env
+AZURE_RESOURCE_NAME="your-actual-resource-name"
+```
+
 ## Steps
 
 ```pwsh
