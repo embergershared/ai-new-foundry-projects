@@ -16,13 +16,13 @@ This project uses two environment files:
 **First-time setup:**
 
 1. Copy `.env.local` to `.env`
-2. Edit `.env` and set `AZURE_RESOURCE_NAME` to your Azure resource name
+2. Edit `.env` and set `FOUNDRY_NAME` to your Azure resource name
 3. The `.env` file contains your actual values and is excluded from git via `.gitignore`
 
 The `.env` file should contain:
 
 ```env
-AZURE_RESOURCE_NAME="your-actual-resource-name"
+FOUNDRY_NAME="your-actual-resource-name"
 ```
 
 ## Steps
